@@ -91,7 +91,7 @@ $ ('.container__row__btn').click(function (){
 
   // Funcion para emular sonidos
   function playSound(color) {
-    let audio = new Audio ('./sounds/' + color + '.mp3');
+    let audio = new Audio ('./sounds/assets_sounds_' + color + '.mp3'); // .sounds/assest_sounds_green.mp3
 
     audio.play();
   }
