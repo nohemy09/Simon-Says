@@ -4,13 +4,36 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Simon Says Game</title>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   </head>
+
   <body>
-    <header>
-      <h1>hola mundo</h1>
-    </header>
-    <div id="app"></div>
+    <h1 id="level-title">Press A key To Start</h1>
+
+    <section class="container">
+      <div class="container__row">
+        <div type="button" id="green" class="container__row__btn--green container__row__btn">
+        </div>
+  
+        <div type="button" id="red" class="container__row__btn--red container__row__btn">
+        </div>
+      </div>
+  
+      <div class="container__row">
+        <div type="button" id="yellow" class="container__row__btn--yellow container__row__btn">
+        </div>
+  
+        <div type="button" id="blue" class="container__row__btn--blue container__row__btn">
+        </div>
+      </div>
+    </section>
+    
+    <!--Javascrit and JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
     <script type="module" src="./JS/main.js"></script>
   </body>
 </html>
